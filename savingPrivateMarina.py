@@ -62,7 +62,7 @@ for dateItem in dates:
         # envelope header.
         s.sendmail(me, [dest1, dest2], msg_positive.as_string().encode('utf-8'))
         s.quit()
-    date = soupdate.get_text()
+    dateItem = soupdate.get_text()
     print dateItem
 
 
