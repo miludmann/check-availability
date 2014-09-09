@@ -64,6 +64,5 @@ for dateItem in dates:
         s.quit()
     date = soupdate.get_text()
     print dateItem
-    regex = re.compile("^20\d\d[- /.](0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])$")
 
 
